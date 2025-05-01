@@ -1,0 +1,20 @@
+workpackages:
+  - name: Cambio 1
+    pbis:
+      - name: PBI1
+        key: SWIM-2000
+        points: 1
+        sprint:
+          - 199
+  - name: Cambio 2
+    pbis:
+      - name: PBI2
+        key: SWIM-2001
+        points: 8
+        sprint:
+          - 199
+      - name: PBI3
+        key: SWIM-2002
+        points: 15
+        sprint:
+          - 200

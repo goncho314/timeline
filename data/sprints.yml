@@ -1,0 +1,11 @@
+sprints:
+  - name: SP 199
+    capacity1: 50
+    capacity2: 46
+    start: 2025-05-01
+    end: 2019-05-14
+  - name: 200
+    capacity1: 42
+    capacity2: 60
+    start: 2025-05-15
+    end: 2019-05-28

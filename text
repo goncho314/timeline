@@ -1,0 +1,2 @@
+tengo unos ficheros con unos datos y quiero generar en html una especie de cronograma para visualizar los elementos del backlog en una metodología Scrum.
+La primera fila tendrá información sobre los sprints. La lista de los sprints está en un fichero, con el nombre, la capacidad en puntos historia de los dos equipos del proyecto y la fecha de inicio y fin
