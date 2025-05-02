@@ -25,3 +25,9 @@ jobs:
 
       - name: Run Python
         run: python main.py
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public

@@ -1,0 +1,102 @@
+{
+  "stories": [
+    {
+      "id": "SWIM-15483",
+      "name": "Implement landing page",
+      "workpackage": "SWIM-1457",
+      "points": 8,
+      "sprint": 197
+    },
+    {
+      "id": "SWIM-15484",
+      "name": "Add login functionality",
+      "workpackage": "SWIM-1458",
+      "points": 5,
+      "sprint": 197
+    },
+    {
+      "id": "SWIM-15485",
+      "name": "Design dashboard UI",
+      "workpackage": "SWIM-1457",
+      "points": 3,
+      "sprint": 197
+    },
+    {
+      "id": "SWIM-15486",
+      "name": "Setup CI/CD pipeline",
+      "workpackage": "SWIM-1459",
+      "points": 8,
+      "sprint": 197
+    },
+    {
+      "id": "SWIM-15487",
+      "name": "Write unit tests",
+      "workpackage": "SWIM-1460",
+      "points": 5,
+      "sprint": 198
+    },
+    {
+      "id": "SWIM-15488",
+      "name": "Optimize SQL queries",
+      "workpackage": "SWIM-1460",
+      "points": 3,
+      "sprint": 198
+    },
+    {
+      "id": "SWIM-15489",
+      "name": "Fix user profile bugs",
+      "workpackage": "SWIM-1460",
+      "points": 2,
+      "sprint": 199
+    },
+    {
+      "id": "SWIM-15490",
+      "name": "Create PDF export",
+      "workpackage": "SWIM-1461",
+      "points": 5,
+      "sprint": 199
+    },
+    {
+      "id": "SWIM-15491",
+      "name": "Add accessibility features",
+      "workpackage": "SWIM-1457",
+      "points": 8,
+      "sprint": 200
+    },
+    {
+      "id": "SWIM-15492",
+      "name": "Configure email notifications",
+      "workpackage": "SWIM-1458",
+      "points": 3,
+      "sprint": 200
+    },
+    {
+      "id": "SWIM-15493",
+      "name": "Improve mobile responsiveness",
+      "workpackage": "SWIM-1462",
+      "points": 5,
+      "sprint": 202
+    },
+    {
+      "id": "SWIM-15494",
+      "name": "Add dark mode support",
+      "workpackage": "SWIM-1461",
+      "points": 3,
+      "sprint": 201
+    },
+    {
+      "id": "SWIM-15495",
+      "name": "Integrate payment gateway",
+      "workpackage": "SWIM-1469",
+      "points": 8,
+      "sprint": 202
+    },
+    {
+      "id": "SWIM-15496",
+      "name": "Add admin reports",
+      "workpackage": "SWIM-1470",
+      "points": 5,
+      "sprint": 201
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "workpackages": [
+    { "id": "SWIM-1457", "name": "Landing & Accessibility" },
+    { "id": "SWIM-1458", "name": "Authentication & Notifications" },
+    { "id": "SWIM-1459", "name": "CI/CD Integration" },
+    { "id": "SWIM-1460", "name": "Testing & Optimization" },
+    { "id": "SWIM-1461", "name": "PDF & Dark Mode Features" },
+    { "id": "SWIM-1462", "name": "Mobile UI Enhancements" },
+    { "id": "SWIM-1469", "name": "Payment Integration" },
+    { "id": "SWIM-1470", "name": "Admin Tools" }
+  ]
+}

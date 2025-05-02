@@ -1,0 +1,52 @@
+{
+  "sprints": [
+    {
+      "id": 197,
+      "name": "Sprint 197",
+      "capacity1": 50,
+      "capacity2": 46,
+      "start": "2025-03-06",
+      "end": "2019-03-19"
+    },
+    {
+      "id": 198,
+      "name": "Sprint 198",
+      "capacity1": 47,
+      "capacity2": 51,
+      "start": "2025-03-20",
+      "end": "2019-04-02"
+    },
+    {
+      "id": 199,
+      "name": "Sprint 199",
+      "capacity1": 65,
+      "capacity2": 60,
+      "start": "2025-04-03",
+      "end": "2019-04-16"
+    },
+    {
+      "id": 200,
+      "name": "Sprint 200",
+      "capacity1": 50,
+      "capacity2": 46,
+      "start": "2025-04-17",
+      "end": "2019-04-30"
+    },
+    {
+      "id": 201,
+      "name": "Sprint 201",
+      "capacity1": 50,
+      "capacity2": 46,
+      "start": "2025-05-01",
+      "end": "2019-05-14"
+    },
+    {
+      "id": 202,
+      "name": "Sprint 202",
+      "capacity1": 50,
+      "capacity2": 46,
+      "start": "2025-05-15",
+      "end": "2025-05-28"
+    }
+  ]
+}
