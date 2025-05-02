@@ -1,4 +1,6 @@
 import json
+import os
+import re
 from datetime import datetime
 from itertools import groupby
 
@@ -107,7 +109,27 @@ def build_body(workpackages: list[dict]) -> str:
     return html
 
 
-def build_page() -> str:
+def build_index() -> str:
+    files = sorted([file for file in os.listdir("public") if re.match(r'timeline_.*html$', file)],
+                   reverse=True)
+    html = '''<!DOCTYPE html>
+            <html>
+            <head>
+              <title>Timeline Index</title>
+            </head>
+            <body>
+              <h1>Available Timelines</h1>
+              <ul>'''
+    for file in files:
+        html += f'<li><a href="{file}">{file}</a></li>\n'
+    html += '''
+              </ul>
+            </body>
+            </html>'''
+    return html
+
+
+def build_timeline() -> str:
     sprints = get_sprints()
     workpackages_and_stories = get_workpackages_and_stories(sprints)
     sorted_workpackages = sorted(workpackages_and_stories, key=lambda workpackage: (workpackage["start_sprint"], workpackage["start_sprint"]))
@@ -122,7 +144,11 @@ def build_page() -> str:
 
 
 if __name__ == "__main__":
-    page = build_page()
-    # with open(f"public/result_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.html", "w") as output:
-    with open(f"public/index.html", "w") as output:
+    page = build_timeline()
+    with open(f"public/timeline_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.html", "w") as output:
+    # with open(f"public/index.html", "w") as output:
         output.write(page)
+    index = build_index()
+    with open(f"public/index.html", "w") as output:
+        output.write(index)
+
