@@ -56,9 +56,10 @@ def \
 
 
 def build_header(sprints: list[dict]) -> str:
-    html = '<thead>' \
+    html = '<thead>'
+    dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    empty_cell = '<th class="no-border" colspan="2"></th>\n'
+    empty_cell = f'<th class="no-border" colspan="2">{dt}</th>\n'
     html_sprints = '<tr>' + empty_cell
     html_dates = '<tr>' + empty_cell
     html_points = '<tr>' + empty_cell
